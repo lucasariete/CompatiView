@@ -36,7 +36,7 @@ h1 strong{
 
 
 button{
-    
+    padding: 1rem;
     margin-left: 0;
     margin-right: 0;
     margin: 1rem;
@@ -50,20 +50,28 @@ button{
 button:hover{
     color: violet;
     font-weight: bolder;
+    font-size: 1.3rem;
     text-decoration: underline;
 }
 
 button:active{
-    font-size: 0.98rem;
+    font-size: 1.2rem;
 }
 
 i.userconfig{
     background-color: inherit;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: darkorchid;
 }
 
 i.userconfig:hover{
+    font-size: 1.8rem;
+    color: violet;
+    font-weight: bolder;
+}
+
+i.userconfig:active{
+    font-size: 1.6rem;
     color: violet;
     font-weight: bolder;
 }
