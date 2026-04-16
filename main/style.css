@@ -1,4 +1,8 @@
 *{
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    background-color: #0c0c0c;
     max-width: 1920px;
     max-height: 1080px;
     margin: 0;
@@ -9,23 +13,57 @@
 
 nav{
     margin: 0 auto;
-    padding: 1rem;
-    background-color: #0c0c0c;
+    padding: 1rem auto;
+    background-color: #f0f0f0;
     color: #ffffff;
     display: inline-flex;
     width: 100%;
 }
 
 h1{
+    margin: 0.5rem;
+    color: #0c0c0c;
+    background-color: inherit;
     text-align: left;
-    margin-right: 40%;
+    margin-right: 55%;
 }
 
+h1 strong{
+    color: darkorchid;
+    background-color: inherit;
+}
+
+
+
 button{
+    
     margin-left: 0;
     margin-right: 0;
     margin: 1rem;
     background-color: transparent;
     border: 0px solid transparent;
-    color: cornflowerblue;
+    color: darkorchid;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+button:hover{
+    color: violet;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+button:active{
+    font-size: 0.98rem;
+}
+
+i.userconfig{
+    background-color: inherit;
+    font-size: 1rem;
+    color: darkorchid;
+}
+
+i.userconfig:hover{
+    color: violet;
+    font-weight: bolder;
 }
