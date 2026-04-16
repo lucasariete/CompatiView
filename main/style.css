@@ -1,0 +1,31 @@
+*{
+    max-width: 1920px;
+    max-height: 1080px;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #0c0c0c;
+    color: #ffffff;
+    display: inline-flex;
+    width: 100%;
+}
+
+h1{
+    text-align: left;
+    margin-right: 40%;
+}
+
+button{
+    margin-left: 0;
+    margin-right: 0;
+    margin: 1rem;
+    background-color: transparent;
+    border: 0px solid transparent;
+    color: cornflowerblue;
+}
