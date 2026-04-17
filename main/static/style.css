@@ -2,28 +2,44 @@
     align-items: center;
     align-self: center;
     align-content: center;
-    width: 80% auto;
-    max-width: 1920px;
-    max-height: 1080px;
     height: auto;
-    background-color: #1b1b1b;
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 0;
+    padding: 0;
     scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
 
+html{
+    height: 100%;
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../misc/images/Background CompatiView.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body{
+    margin: 0;
+}
+
 header{
+    vertical-align: top;
+    height: fit-content;
+    margin: 0;
     text-align: left auto;
 }
 
 nav{
-    margin: 0 auto;
-    padding: 0 auto;
+    vertical-align: top;
+    margin: 0;
+    margin-bottom: 5rem;
+    padding: 0;
     background-color: #f0f0f0;
     color: #ffffff;
-    display: inline-flex;
+    display: flex;
     width: 100%;
     align-items: center;
 }
@@ -32,7 +48,6 @@ figure{
     background-color: transparent;
     padding: 0;
     margin: 0;
-    margin-right: 45%;
     text-align: left;
 }
 
@@ -45,23 +60,13 @@ header img:hover{
     opacity: 1;
 }
 
-h1{
-    max-width: 100%;
-    word-wrap: break-word;
-    width: 50%;
-    padding: 0;
-    margin-left: 0;
-    margin: 0rem auto;
-    color: #0c0c0c;
-    background-color: inherit;
-    text-align: left;
-}
-
 button a{
+    margin-right: 2.5rem;
     background-color: transparent;
     color: #000000;
     font-weight: bolder;
     display: inline-block;
+    transition: 0.2s ease-out;
 }
 button a:hover{
     color: #8c52ff;
@@ -69,6 +74,7 @@ button a:hover{
     transform: scale(1.1);
     text-decoration: underline;
     display: inline-block;
+    transition: 0.2s ease-in;
 }
 button a:active{
     color: #6138b5;
@@ -88,12 +94,14 @@ button{
     font-weight: bolder;
     scale: 1.2;
     display: inline-block;
+    transition: 0.2s ease-out;
 }
 button:hover{
     color: #8c52ff;
     font-weight: bolder;
     transform: scale(1.1);
     display: inline-block;
+    transition: 0.1s ease-in;
 }
 button:active{
     color: #6138b5;
@@ -105,11 +113,13 @@ i.userconfig{
     background-color: inherit;
     scale: 1.5;
     color: #000000;
+    transition: 0.2s ease-out;
 }
 i.userconfig:hover{
     transform: scale(1.1);
     color: #8c52ff;
     font-weight: bolder;
+    transition: 0.1s ease-in;
 }
 i.userconfig:active{
     transform: scale(1);
@@ -118,18 +128,28 @@ i.userconfig:active{
 }
 
 section.cadastro_inicial{
+    margin: 0;
     text-align: center;
-}
-
-section.cadastro_inicial h1{
-    text-align: center;
-    scale: 2;
-    color: #8c52ff;
-    margin-top: 10rem;
-    margin-bottom: 2rem;
+    align-items: center;
+    display: block;
 }
 
 section.cadastro_inicial h2{
+    max-width: 100%;
+    max-height: min-content;
+    word-wrap: break-word;
+    width: 50%;
+    padding: 0;
+    margin: 0 auto;
+    background-color: inherit;
+    text-align: center;
+    scale: 2;
+    color: #8c52ff;
+    margin-bottom: 2rem;
+}
+
+
+section.cadastro_inicial h3{
     text-align: center;
     scale: 1.2;
     color: #ffffff;
@@ -139,9 +159,28 @@ section.cadastro_inicial h2{
 #b_cadastro{
     font-size: 1.5rem;
     padding: 1.5rem;
+    line-height: 0.5;
+    margin-bottom: 1.5rem;
     background-color: #8c52ff;
     border: 1px solid #f0f0f0;
     border-radius: 50px;
     color: #ffffff;
+    transition: 0.4s ease-out;
+}
+#b_cadastro:hover{
+    background-color: #9f6eff;
+    transform: scale(1.1);
+    transition: 0.2s ease-in;
+}
+#b_cadastro:active{
+    color: #b1b1b1;
+    background-color: #6138b5;
+    transform: scale(1);
+    transition: 0.1s;
+}
 
+section.cadastro_inicial a{
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 3rem;
 }
