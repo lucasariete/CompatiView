@@ -4,39 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Início</title>
-    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="../static/style.css">  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+
+    
 </head>
 
 <body>
     <header>
         <nav class="navbar">
-            <figure class="logo"><img src="../misc/images/Logo - CompatiView.png" alt="logo"></figure>
-            
+            <a id="logo" href="index.html"><img src="../misc/images/Logo - CompatiView.png" alt="logo"></a>
+
             <div class="navlinks">
-                <a id="b_login" href="login.html" target="_blank">Login</a>
+                <a id="login" href="login.html" target="_blank">Login</a>
 
-                <a id="b_predefs" href="login.html" target="_blank">Predefinições</a>
-
-                <a id="b_artigos" href="login.html" target="_blank">Artigos</a>
-
-                <a id="b_sobre" href="login.html" target="_blank">Sobre</a>
-
-                <a href="login.html"><i class="fa-solid fa-user-gear userconfig" ></i></a>
+                <a id="config" href="login.html"><i class="fa-solid fa-user-gear userconfig" ></i></a>
             </div>
         </nav>
     </header>
 
     <section class="cadastro_inicial">
 
-        <h2>Bem-vindo ao CompatiView!</h2>
-        <h3>A melhor escolha para verificar a compatibilidade entre peças para seu computador.
-            <br>
-            Clique no botão abaixo para realizar seu cadastro e ter acesso à todos os nossos serviços:
-        </h3>
-        <button id="b_cadastro">Cadastre-se aqui</button>
-        <br>
-        <a href="login.html" target="_blank" rel="noopener noreferrer">Utilizar sem cadastro</a>
+        <h1>Bem-vindo ao CompatiView!</h1>
+        <h2>A melhor escolha para verificar a compatibilidade entre peças para seu computador.</h2>
+        <h3>Clique no botão abaixo para realizar seu cadastro e ter acesso à todos os nossos serviços:</h3>
+        
+        <div class="area_cadastro">
+            <a id="cadastro" href="cadastro.html" target="_blank">Cadastre-se aqui</a>
+            <a id="sem_cadastro" href="login.html" target="_blank" rel="noopener noreferrer">Utilizar sem cadastro</a>
+        </div>
     </section>
 
 </body>
