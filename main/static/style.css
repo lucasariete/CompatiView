@@ -142,3 +142,20 @@ p{
     padding: 0;
     margin: 1.0rem;
 }
+
+@media (min-width: 426px){
+
+    html{
+        height: 100%;
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../misc/images/Background\ CompatiView.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #cadastro{
+    width: 40rem;
+    margin: auto;
+}
+
+}
