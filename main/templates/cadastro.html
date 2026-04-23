@@ -3,10 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylecadastro.css">
+    <link rel="stylesheet" href="../static/style_cad.css">
     <title>Cadastro</title>
 </head>
+
 <body>
-    
+    <main>
+        <div class="area_cadastro">
+            <form action="/cadastro" method="post">
+                <img src="../misc/images/Logo - CompatiView.png" alt="Logo CompatiView">
+
+                <label for="username">Usuário</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Confirmar</button>
+            </form>
+        </div>
+
+        <a href="login.html">Já possui cadastro?</a>
+
+    </main>
 </body>
 </html>
